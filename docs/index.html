@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>REILEGH SILVERS — Indie Game Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Unbounded:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="#top">REILEGH SILVERS</a>
+<div class="links"><a href="#ceo" data-i18n="n_ceo"></a><a href="#company" data-i18n="n_co"></a><a href="#portfolio" data-i18n="n_pf"></a><a href="#gallery" data-i18n="n_ga"></a><a href="#contact" data-i18n="n_ct"></a>
+<div class="lang"><button data-l="en" class="on">EN</button><button data-l="ru">RU</button></div></div></div></nav>
+
+<header class="hero" id="top"><div class="orb" id="orb"><i></i><i></i><div class="sph"></div></div>
+<div class="wrap"><h1 class="in" data-i18n="h1"></h1><p class="q in" data-i18n="quote"></p><a class="btn in" href="#contact" data-i18n="cta1"></a></div></header>
+
+<div class="mq"><div id="mq"></div></div>
+
+<section id="ceo"><div class="wrap ceo"><div class="pic"><span>AO</span></div>
+<div><h2 data-i18n="ceo_h"></h2><p data-i18n="ceo_p1"></p><p data-i18n="ceo_p2"></p><p data-i18n="ceo_p3"></p>
+<p class="name">Osmonalieva Ayana<small data-i18n="ceo_role"></small></p></div></div></section>
+
+<section id="company"><div class="wrap"><h2 data-i18n="co_h"></h2><p class="lead" data-i18n="co_p"></p>
+<div class="dirs">
+<div class="dir"><span class="ic">🎮</span><h3 data-i18n="d1h"></h3><p data-i18n="d1p"></p></div>
+<div class="dir"><span class="ic">🎨</span><h3 data-i18n="d2h"></h3><p data-i18n="d2p"></p></div>
+<div class="dir"><span class="ic">⚡</span><h3 data-i18n="d3h"></h3><p data-i18n="d3p"></p></div></div></div></section>
+
+<section id="portfolio"><div class="wrap"><h2 data-i18n="pf_h"></h2><div class="pf">
+<a class="row" href="https://github.com/fagayns/battleship_upd" target="_blank" rel="noopener"><h3 data-i18n="g1n"></h3><p data-i18n="g1p"></p><span class="tag" data-i18n="g1t"></span></a>
+<a class="row" href="https://github.com/MairamKenzh/uno-with-friends-online" target="_blank" rel="noopener"><h3 data-i18n="g2n"></h3><p data-i18n="g2p"></p><span class="tag" data-i18n="g2t"></span></a>
+<a class="row" href="https://github.com/fagayns/chatbot-Winnie-the-Pooh" target="_blank" rel="noopener"><h3 data-i18n="g3n"></h3><p data-i18n="g3p"></p><span class="tag" data-i18n="g3t"></span></a>
+</div></div></section>
+
+<section id="gallery"><div class="wrap"><h2 data-i18n="ga_h"></h2><div class="gal">
+<a href="https://github.com/fagayns/battleship_upd" target="_blank" rel="noopener"><figure>
+  <img src="assets/screenshots/sea-battle.jpg" alt="Sea Battle interface"><figcaption data-i18n="g1n"></figcaption></figure></a>
+<a href="https://github.com/fagayns/chatbot-Winnie-the-Pooh" target="_blank" rel="noopener"><figure>
+  <img src="assets/screenshots/winnie-pooh.jpg" alt="Winnie-the-Pooh chat interface"><figcaption data-i18n="g3n"></figcaption></figure></a>
+<a href="https://github.com/MairamKenzh/uno-with-friends-online" target="_blank" rel="noopener"><figure>
+  <img src="assets/screenshots/last-card.jpg" alt="Last Card interface"><figcaption data-i18n="g2n"></figcaption></figure></a>
+</div></div></section>
+
+<section id="contact"><div class="wrap"><div class="cta"><div>
+<h2 data-i18n="ct_h"></h2><p data-i18n="ct_p"></p>
+<div class="ct"><span data-i18n="ct_mail"></span><a href="mailto:ayana.osmonalieva@alatoo.edu.kg">ayana.osmonalieva@alatoo.edu.kg</a>
+<span data-i18n="ct_tg"></span><a href="https://t.me/amapopstar" target="_blank" rel="noopener">@amapopstar</a></div></div>
+<form id="f"><label><span data-i18n="f_name"></span><input name="name" required maxlength="80" autocomplete="name"></label>
+<label><span data-i18n="f_contact"></span><input name="contact" required maxlength="120"></label>
+<label><span data-i18n="f_msg"></span><textarea name="message" required maxlength="1500"></textarea></label>
+<input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button class="btn" type="submit" data-i18n="f_send"></button><div id="st" role="status"></div></form></div></div></section>
+
+<footer>© 2026 REILEGH SILVERS</footer>
+
+<script src="css/i18n.js"></script>
+<script src="css/main.js"></script>
+</body>
+</html>
